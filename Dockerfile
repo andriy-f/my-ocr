@@ -6,6 +6,7 @@ RUN \
 	tesseract-ocr \
 	tesseract-ocr-eng \
 	tesseract-ocr-deu \
-	ocrmypdf
+	ocrmypdf \
+	img2pdf
 
 CMD ["/bin/bash"]
