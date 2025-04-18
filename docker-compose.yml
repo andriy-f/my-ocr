@@ -1,6 +1,6 @@
 services:
   ocr:
     build: .
-    # working_dir: "/workdir"
+    working_dir: "/workdir"
     volumes:
       - "./workdir:/workdir"
